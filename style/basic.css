@@ -1,0 +1,11 @@
+#offlineusers .explore {
+	text-decoration: none;
+	color: black;
+	pointer-events: none;
+}
+
+.nickname {
+	display: block;
+	width: 6cm;
+	float: left;
+}
