@@ -11,4 +11,4 @@ VALUES(
 	@nickname,
 	NOW(), 
 	(NOW() + INTERVAL 30 MINUTE), 
-	MD5(CONCAT(@remoteip,@nickname)))
+	MD5(CONCAT(@remoteport,@remoteip,@nickname)))
