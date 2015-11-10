@@ -1,2 +1,1 @@
-online = [{% online %}];
-offline = [{% offline %}];
+"messages": [{% items %}],

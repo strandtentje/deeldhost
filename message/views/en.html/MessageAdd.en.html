@@ -1,11 +1,8 @@
 <form method="post">
-	<label for="nickname">
-		Nickname
+	<label for="message">
+		Message
 	</label>
-	<input type="text" name="nickname" value="{% &nickname %}">
-	<label for="remoteport">
-		Port
-	</label>
-	<input type="text" name="remoteport" value="{% &remoteport %}">
-	<input type="submit" value="Sign in">
+	<textarea name="message" rows="5" cols="40" 
+		style="font-family: cursive;">{% &message %}</textarea>
+	<input type="submit" value="Post it">
 </form>

@@ -1,6 +1,5 @@
 {
-	remoteip = "{% remoteip %}";
-	nickname = "{% &nickname %}";
-	lastseen = "{% start %}";
-	remoteport = "{% remoteport %}";
-}
+	"author": "{% author %}",
+	"postedon": "{% start %}",
+	"message": "{% message %}"
+},
