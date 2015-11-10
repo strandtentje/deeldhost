@@ -9,3 +9,7 @@
 	width: 6cm;
 	float: left;
 }
+
+form input, form label, form .error {
+	display: block;
+}
