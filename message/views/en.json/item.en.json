@@ -1,5 +1,5 @@
 {
 	"author": "{% username %}",
-	"postedon": "{% start %}",
+	"postedon": "{% start %}",	
 	"message": "{% text %}"
 },
