@@ -1,1 +1,3 @@
 message: "success",
+id: "{% id %}",
+secret: "{% secret %}",
